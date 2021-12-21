@@ -59,3 +59,13 @@
   left: 0;
 }
 
+footer {
+  background-image: url("/img/footer-bg.jpg");
+  height: 400px;
+}
+
+footer .container .footer_link_title {
+  z-index: 99;
+  color: white;
+}
+

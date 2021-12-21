@@ -1,0 +1,11 @@
+footer{
+    background-image: url('/img/footer-bg.jpg');
+    height: 400px;
+
+    .container{
+        .footer_link_title{
+            z-index: 99;
+            color: white;
+        }
+    }
+}
