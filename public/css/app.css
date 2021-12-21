@@ -48,15 +48,14 @@
   position: relative;
   background-image: url("/img/jumbotron.jpg");
   background-position: top;
-}
-
-.jumbotron_container .jumbotron_blue_divisor {
-  background-color: #0c7cec;
-  height: 80px;
-  position: absolute;
-  bottom: 0;
-  right: 0;
-  left: 0;
+  /* .jumbotron_blue_divisor{
+      background-color: #0c7cec;
+      height: 80px;
+      position: absolute;
+      bottom: 0;
+      right: 0;
+      left: 0;
+  } */
 }
 
 footer {
@@ -102,5 +101,56 @@ footer .top_footer .container .footer_logo_container img {
 footer .bottom_footer {
   height: 60px;
   background-color: red;
+}
+
+main {
+  background-color: #282828;
+}
+
+main h1 {
+  margin: 0;
+  color: white;
+}
+
+main .container {
+  width: 70%;
+  margin: 0 auto;
+  padding: 60px 0;
+  position: relative;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+main .container .badge {
+  position: absolute;
+  top: -25px;
+  left: -10px;
+  background-color: #0c7cec;
+  border-radius: 0;
+  padding: 10px 30px;
+}
+
+main .container .badge h2 {
+  margin: 0;
+}
+
+main .container .single_card_container {
+  width: calc(16.6666666667% - 20px);
+}
+
+main .container .single_card_container .comic_thumb_container {
+  height: 150px;
+  overflow: hidden;
+}
+
+main .container .single_card_container .comic_thumb_container img {
+  width: 100%;
+}
+
+main .container .single_card_container .comic_title {
+  color: white;
+  padding: 10px 0 20px;
+  font-size: 12px;
 }
 
