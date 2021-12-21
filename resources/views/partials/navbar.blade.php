@@ -21,5 +21,5 @@
             </div>
         </div>
     </div>
-    @include('partials.jumbo')
+    @include('partials.header_jumbo')
 </header>
