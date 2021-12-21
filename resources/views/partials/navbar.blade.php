@@ -13,8 +13,8 @@
             <li class="col"><a href="">VIDEOS</a></li>
             <li class="col"><a href="">FANS</a></li>
             <li class="col"><a href="">NEWS</a></li>
-            <li class="col">SHOPS</li>
+            <li class="col"><a href="">SHOPS</a></li>
+            <li class="col">Search</li>
         </ul>
-        <div>search bar</div>
     </div>
 </div>

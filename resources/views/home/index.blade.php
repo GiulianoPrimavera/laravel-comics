@@ -1,15 +1,14 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>home</title>
+@extends('layouts.layout_base')
 
-    @include('partials.header_scripts')
+@section('title')
+    home
+@endsection
+
+{{-- qui si trova l'header con la navbar --}}
+
+@section('content')
+    {{-- qui si trova il main --}}
     
-</head>
-<body>
-    <h1>questa è la home</h1>
-</body>
-</html>
+@endsection
+
+{{-- qui si trova il footer --}}
