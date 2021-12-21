@@ -1,0 +1,15 @@
+.jumbotron_container{
+    height: 400px;
+    position: relative;
+    background-image: url('/img/jumbotron.jpg');
+    background-position: top;
+
+    .jumbotron_blue_divisor{
+        background-color: #0c7cec;
+        height: 80px;
+        position: absolute;
+        bottom: -80px;
+        right: 0;
+        left: 0;
+    }
+}

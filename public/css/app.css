@@ -18,10 +18,11 @@
 .my_navbar .navbar_links_container ul {
   list-style: none;
   height: 100%;
+  flex-wrap: nowrap;
 }
 
 .my_navbar .navbar_links_container ul a {
-  font-size: 14px;
+  font-size: 12px;
   display: inline-block;
   text-decoration: none;
   padding: 20px;
@@ -33,10 +34,26 @@
   color: white;
 }
 
-header,
-main,
-footer {
+header .container,
+main .container,
+footer .container {
   width: 70%;
   margin: 0 auto;
+}
+
+.jumbotron_container {
+  height: 400px;
+  position: relative;
+  background-image: url("/img/jumbotron.jpg");
+  background-position: top;
+}
+
+.jumbotron_container .jumbotron_blue_divisor {
+  background-color: #0c7cec;
+  height: 80px;
+  position: absolute;
+  bottom: -80px;
+  right: 0;
+  left: 0;
 }
 
