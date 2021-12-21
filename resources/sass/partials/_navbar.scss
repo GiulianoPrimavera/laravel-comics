@@ -1,8 +1,6 @@
 .my_navbar{
     display: flex;
     
-
-    
     .logo_container{
         flex-grow: 0;
         padding: 10px;
@@ -18,11 +16,12 @@
         ul{
             list-style: none;
             height: 100%;
+            flex-wrap: nowrap;
             // display: flex;
             // align-items: center;
 
             a{
-                font-size: 14px;
+                font-size: 12px;
                 display: inline-block;
                 text-decoration: none;
                 padding: 20px;

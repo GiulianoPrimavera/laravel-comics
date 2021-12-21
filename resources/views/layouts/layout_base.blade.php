@@ -16,16 +16,25 @@
 <body>
 
     <header>
-        {{-- qui inserisco l'header della pagina --}}
-        @include('partials.navbar')
+        <div class="container">
+            {{-- qui inserisco l'header della pagina --}}
+            @include('partials.navbar')
+        </div>
+        @include('partials.jumbo')
     </header>
 
     <main>
-        @yield('content')        
+        <div class="container">
+            @yield('content')        
+
+        </div>
     </main>
 
     <footer>
-        {{-- qui inserisco il footer della pagina --}}
+        <div class="container">
+            {{-- qui inserisco il footer della pagina --}}
+
+        </div>
     </footer>
 </body>
 </html>
