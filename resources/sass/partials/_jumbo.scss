@@ -1,5 +1,5 @@
 .jumbotron_container{
-    height: 400px;
+    height: 480px;
     position: relative;
     background-image: url('/img/jumbotron.jpg');
     background-position: top;
@@ -8,7 +8,7 @@
         background-color: #0c7cec;
         height: 80px;
         position: absolute;
-        bottom: -80px;
+        bottom: 0;
         right: 0;
         left: 0;
     }
