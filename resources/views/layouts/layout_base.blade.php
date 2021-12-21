@@ -19,11 +19,7 @@
     @include('partials.navbar')
 
 
-    <main>
-        <div class="container">
-            @yield('content')        
-        </div>
-    </main>
+    @yield('content')        
 
     
     {{-- qui inserisco il footer della pagina --}}
