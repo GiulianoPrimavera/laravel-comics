@@ -1,27 +1,36 @@
-.my_navbar {
+.container {
+  width: 70%;
+  margin: 0 auto;
+}
+
+.container .my_navbar {
   display: flex;
 }
 
-.my_navbar .logo_container {
+.container .my_navbar .col {
+  padding: 0;
+}
+
+.container .my_navbar .logo_container {
   flex-grow: 0;
   padding: 10px;
 }
 
-.my_navbar .logo_container img {
+.container .my_navbar .logo_container img {
   height: 60px;
 }
 
-.my_navbar .navbar_links_container {
+.container .my_navbar .navbar_links_container {
   flex-grow: 1;
 }
 
-.my_navbar .navbar_links_container ul {
+.container .my_navbar .navbar_links_container ul {
   list-style: none;
   height: 100%;
   flex-wrap: nowrap;
 }
 
-.my_navbar .navbar_links_container ul a {
+.container .my_navbar .navbar_links_container ul a {
   font-size: 12px;
   display: inline-block;
   text-decoration: none;
@@ -29,16 +38,9 @@
   color: black;
 }
 
-.my_navbar .navbar_links_container ul a:hover {
+.container .my_navbar .navbar_links_container ul a:hover {
   background-color: #0c7cec;
   color: white;
-}
-
-header .container,
-main .container,
-footer .container {
-  width: 70%;
-  margin: 0 auto;
 }
 
 .jumbotron_container {
