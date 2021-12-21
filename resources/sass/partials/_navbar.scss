@@ -5,6 +5,11 @@
     
     .logo_container{
         flex-grow: 0;
+        padding: 10px;
+
+        img{
+            height: 60px;
+        }
     }
     
     .navbar_links_container{
@@ -12,8 +17,21 @@
         
         ul{
             list-style: none;
+            height: 100%;
+            // display: flex;
+            // align-items: center;
+
             a{
+                font-size: 14px;
+                display: inline-block;
                 text-decoration: none;
+                padding: 20px;
+                color: black;
+
+                &:hover{
+                    background-color: #0c7cec;
+                    color: white;
+                }
             }
         }
     }

@@ -1,9 +1,9 @@
 <div class="my_navbar row">
     <div class="logo_container col">
-        <img src="" alt="">
+        <img src="{{ asset('img/dc-logo.png') }}" alt="">
     </div>
     <div class="navbar_links_container col container">
-        <ul class="row">
+        <ul class="row align-items-center">
             <li class="col"><a href="">CHARACTERS</a></li>
             <li class="col"><a href="">COMICS</a></li>
             <li class="col"><a href="">MOVIES</a></li>

@@ -4,6 +4,11 @@
 
 .my_navbar .logo_container {
   flex-grow: 0;
+  padding: 10px;
+}
+
+.my_navbar .logo_container img {
+  height: 60px;
 }
 
 .my_navbar .navbar_links_container {
@@ -12,10 +17,20 @@
 
 .my_navbar .navbar_links_container ul {
   list-style: none;
+  height: 100%;
 }
 
 .my_navbar .navbar_links_container ul a {
+  font-size: 14px;
+  display: inline-block;
   text-decoration: none;
+  padding: 20px;
+  color: black;
+}
+
+.my_navbar .navbar_links_container ul a:hover {
+  background-color: #0c7cec;
+  color: white;
 }
 
 header,
