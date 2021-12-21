@@ -1,0 +1,27 @@
+.my_navbar {
+  display: flex;
+}
+
+.my_navbar .logo_container {
+  flex-grow: 0;
+}
+
+.my_navbar .navbar_links_container {
+  flex-grow: 1;
+}
+
+.my_navbar .navbar_links_container ul {
+  list-style: none;
+}
+
+.my_navbar .navbar_links_container ul a {
+  text-decoration: none;
+}
+
+header,
+main,
+footer {
+  width: 70%;
+  margin: 0 auto;
+}
+
