@@ -1,4 +1,15 @@
 .thumb_holder{
     background-color: #0e7cec;
     height: 100px;
+
+    .image_thumb_container{
+        width: 60%;
+        height: 100%;
+        margin: 0 auto;
+        position: relative;
+        img{
+            position: absolute;
+            bottom: 30px;
+        }   
+    }
 }

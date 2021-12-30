@@ -167,3 +167,15 @@ main .container .single_card_container .comic_title {
   height: 100px;
 }
 
+.thumb_holder .image_thumb_container {
+  width: 60%;
+  height: 100%;
+  margin: 0 auto;
+  position: relative;
+}
+
+.thumb_holder .image_thumb_container img {
+  position: absolute;
+  bottom: 30px;
+}
+
