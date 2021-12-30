@@ -8,7 +8,9 @@
     <main>
 
         <div class="thumb_holder">
-            <img src="{{ $comic["thumb"] }}" alt="">
+            <div class="image_thumb_container">
+                <img src="{{ $comic["thumb"] }}" alt="">
+            </div>
         </div>
         
         
