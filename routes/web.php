@@ -17,8 +17,14 @@ Route::get('/comics', function () {
     $comicsData = config('comics');
     
     $data = ["comics" => $comicsData];
-    return view('home.index', $data);
+    return view('comics.index', $data);
 })->name("comics");
+
+Route::get('/comics/dettagli', function () {
+    
+    return view('comics.details');
+
+})->name("comics.details");
 
 
 Route::get('/characters', function () {
