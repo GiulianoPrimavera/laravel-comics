@@ -75,3 +75,52 @@ main{
         }
     }
 }
+
+.comic_info_main_container{
+    background-color: #F6F6F6;
+
+    
+    .comic_info_container{
+        padding: 20px 0;
+        width: 75%;
+        margin: 0 auto;
+        display: flex;
+        justify-content: space-around;
+        gap: 50px;
+        
+
+        h5{
+            padding: 20px 0;
+        }
+
+        .talent, .specs{
+            width: 50%;
+
+            & > div{
+                border-top: 2px solid #E3E3E3;
+            }
+        }
+
+        
+        .my_info_row{
+            padding: 10px 0;
+            display: flex;
+            p.small{
+                font-size: 14px;
+                flex-grow: 1;
+            }
+            
+            .link_container{
+                width: 50%;
+                display: flex;
+                flex-wrap: wrap;
+                a{
+                    display: inline-block;
+                }
+                
+            }
+        }
+    
+    } 
+
+}

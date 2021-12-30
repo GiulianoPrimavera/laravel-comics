@@ -55,21 +55,80 @@
         </div>
 
 
-        <div class="comic_info_container">
+        <div class="comic_info_main_container">
+            <div class="comic_info_container">
 
-            <div class="talent">
-                <div class="art_by"></div>
+                <div class="talent">
 
-                <div class="written_by"></div>
+                    <h5>
+                        Talent
+                    </h5>
+                    
+                    <div class="my_info_row">
+                        
+                        <p class="small">Art by:</p>
+
+                        <div class="link_container">
+                            @foreach ($comic["artists"] as $artist)
+                                <a href="#">{{$artist}}, </a>
+                            @endforeach
+                        </div>
+
+                    </div>
+
+                    <div class="my_info_row">
+
+                        <p class="small">Written by:</p>
+
+                        <div class="link_container">
+                            @foreach ($comic["writers"] as $writer)
+                                <a href="#">{{$writer}}, </a>
+                            @endforeach
+                        </div>
+
+                    </div>
+
+                    <div>
+                        {{-- questo div serve per il border bottom dell'ultimo elemento --}}
+                    </div>
+                </div>
+
+                <div class="specs">
+
+                    <h5>
+                        Specs
+                    </h5>
+                    
+                    <div class="my_info_row">
+
+                        <p class="small">Series:</p>
+
+                        <div class="link_container">
+                            <a href="#">ACTION COMICS</a>
+                        </div>
+
+                    </div>
+
+                    <div class="my_info_row">
+
+                        <p class="small">U.S. Price:</p>
+
+                        <div class="link_container">
+                            {{ $comic['price'] }}
+                        </div>
+                    </div>
+
+                    <div class="my_info_row">
+
+                        <p class="small">On Sale Date:</p>
+
+                        <div class="link_container">
+                            {{ $comic['sale_date'] }}
+                        </div>
+                    </div>
+                </div>
             </div>
 
-            <div class="specs">
-                <div class="series"></div>
-
-                <div class="price"></div>
-
-                <div class="on_sale_date"></div>
-            </div>
         </div>
 
 

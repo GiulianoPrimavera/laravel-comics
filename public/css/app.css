@@ -238,3 +238,50 @@ main {
   font-weight: bold;
 }
 
+.comic_info_main_container {
+  background-color: #F6F6F6;
+}
+
+.comic_info_main_container .comic_info_container {
+  padding: 20px 0;
+  width: 75%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-around;
+  gap: 50px;
+}
+
+.comic_info_main_container .comic_info_container h5 {
+  padding: 20px 0;
+}
+
+.comic_info_main_container .comic_info_container .talent,
+.comic_info_main_container .comic_info_container .specs {
+  width: 50%;
+}
+
+.comic_info_main_container .comic_info_container .talent > div,
+.comic_info_main_container .comic_info_container .specs > div {
+  border-top: 2px solid #E3E3E3;
+}
+
+.comic_info_main_container .comic_info_container .my_info_row {
+  padding: 10px 0;
+  display: flex;
+}
+
+.comic_info_main_container .comic_info_container .my_info_row p.small {
+  font-size: 14px;
+  flex-grow: 1;
+}
+
+.comic_info_main_container .comic_info_container .my_info_row .link_container {
+  width: 50%;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.comic_info_main_container .comic_info_container .my_info_row .link_container a {
+  display: inline-block;
+}
+
