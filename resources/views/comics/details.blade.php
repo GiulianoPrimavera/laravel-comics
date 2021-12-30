@@ -17,8 +17,8 @@
         <div class="comic_main_container">
             
             <div class="comic_description">
-    
-                <h2>{{-- titolo fumettto --}}</h2>
+                
+                <h2>{{ strtoupper($comic["title"]) }}</h2>
 
                 <div class="price_info">
 
