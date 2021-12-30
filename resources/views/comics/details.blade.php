@@ -1,9 +1,9 @@
 @extends('layouts.layout_base')
 
 @section('title')
-    prova
+    dettagli prodotto {{ $comic["title"] }}
 @endsection
 
 @section('content')
-    <h1>titolo dei dettagli</h1>
+    <h1>titolo dei dettagli {{ $comic["title"] }}</h1>
 @endsection
