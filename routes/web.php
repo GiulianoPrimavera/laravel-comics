@@ -13,6 +13,12 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
+Route::get('/', function () {
+    
+    return view('home.index');
+
+})->name("home");
+
 Route::get('/comics', function () {
     $comicsData = config('comics');
     
