@@ -28,7 +28,10 @@ main{
 
         .single_card_container{
             width: calc(100% / 6 - 20px);
-
+            
+            a{
+                text-decoration: none;
+            }
             .comic_thumb_container{
                 height: 150px;
                 overflow: hidden;

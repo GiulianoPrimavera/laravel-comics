@@ -143,6 +143,10 @@ main .container .single_card_container {
   width: calc(16.6666666667% - 20px);
 }
 
+main .container .single_card_container a {
+  text-decoration: none;
+}
+
 main .container .single_card_container .comic_thumb_container {
   height: 150px;
   overflow: hidden;

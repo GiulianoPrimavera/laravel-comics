@@ -19,23 +19,25 @@
 
             @foreach ($comics as $item)
                 <div class="single_card_container">
-                    <div class="comic_thumb_container">
-                        <img src="{{$item['thumb']}}" alt="">
-                    </div>
-                    <div class="comic_title">
-                        @php
+                    <a href="#">
+                        <div class="comic_thumb_container">
+                            <img src="{{$item['thumb']}}" alt="">
+                        </div>
+                        <div class="comic_title">
+                            @php
 
-                            /* if(str_contains($item["title"], "#")){
+                                /* if(str_contains($item["title"], "#")){
+                                    $actualTitle = explode('#', $item['title'])
+                                }else if(str_contains($item["title"], "Vol"){
+                                    $actualTitle = explode('Vol', $item['title'])
+                                } */
                                 $actualTitle = explode('#', $item['title'])
-                            }else if(str_contains($item["title"], "Vol"){
-                                $actualTitle = explode('Vol', $item['title'])
-                            } */
-                            $actualTitle = explode('#', $item['title'])
 
-                        @endphp
-                            
-                        <p>{{ strtoupper($actualTitle[0]) }}</p>
-                    </div>
+                            @endphp
+                                
+                            <p>{{ strtoupper($actualTitle[0]) }}</p>
+                        </div>
+                    </a>
                 </div>
             @endforeach
 
