@@ -18,4 +18,4 @@ Route::get('/', function () {
     
     $data = ["comics" => $comicsData];
     return view('home.index', $data);
-})->name("home");
+})->name("comics");
