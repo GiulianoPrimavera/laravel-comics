@@ -162,3 +162,8 @@ main .container .single_card_container .comic_title {
   font-size: 12px;
 }
 
+.thumb_holder {
+  background-color: #0e7cec;
+  height: 100px;
+}
+
