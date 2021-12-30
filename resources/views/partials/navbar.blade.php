@@ -3,7 +3,7 @@
 $navLinks = [
     [
         "linkName" => "CHARACTERS",
-        "linkNameRoute" => ""
+        "linkNameRoute" => "characters"
     ],
     [
         "linkName" => "COMICS",
@@ -66,7 +66,7 @@ $navLinks = [
                     {{-- ogni elemento nell'array ha due voci: il titolo del link, il nome della route del link --}}
                     {{-- se il nome della rpute del link è uguale al nome della route in cui si trova la pagina attualmente visualizzata a schermo --}}
                     {{-- allora gli aggiungo la classe active, altrimenti no --}}
-                        <li class="col"><a href="#" class="{{ $routeName === $singleLink["linkNameRoute"] ? 'active' : '' }}">{{ $singleLink["linkName"] }}</a></li>
+                        <li class="col"><a href="{{ $singleLink['linkNameRoute'] }}" class="{{ $routeName === $singleLink["linkNameRoute"] ? 'active' : '' }}">{{ $singleLink["linkName"] }}</a></li>
                         
                     @endforeach
 
