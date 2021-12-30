@@ -20,9 +20,12 @@ Route::get('/comics', function () {
     return view('comics.index', $data);
 })->name("comics");
 
-Route::get('/comics/dettagli', function () {
+Route::get('/comics/{id?}', function ($id) {
+    $comicsData = config('comics');
     
-    return view('comics.details');
+    $singleComic = $comicsData[$id];
+    
+    return view('comics.details', ["comic" => $singleComic]);
 
 })->name("comics.details");
 
