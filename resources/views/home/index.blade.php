@@ -1,7 +1,7 @@
 @extends('layouts.layout_base')
 
 @section('title')
-    home
+    comics
 @endsection
 
 {{-- qui si trova l'header con la navbar --}}
