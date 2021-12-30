@@ -43,6 +43,10 @@
   color: white;
 }
 
+.container .my_navbar .navbar_links_container ul a.active {
+  border-bottom: 2px solid #0c7cec;
+}
+
 .jumbotron_container {
   height: 480px;
   position: relative;
