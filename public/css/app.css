@@ -162,7 +162,7 @@ main .container .single_card_container .comic_title {
   font-size: 12px;
 }
 
-main {
+.details_main_container {
   background-color: #fff;
 }
 
@@ -240,6 +240,7 @@ main {
 
 .comic_info_main_container {
   background-color: #F6F6F6;
+  border-bottom: 2px solid #E3E3E3;
 }
 
 .comic_info_main_container .comic_info_container {
@@ -283,5 +284,39 @@ main {
 
 .comic_info_main_container .comic_info_container .my_info_row .link_container a {
   display: inline-block;
+}
+
+.comic_info_other_links_container {
+  background-color: #F6F6F6;
+}
+
+.comic_info_other_links_container .comic_info_other_links {
+  width: 75%;
+  margin: 0 auto;
+  display: flex;
+}
+
+.comic_info_other_links_container .comic_info_other_links .other_link {
+  padding: 15px;
+  border-left: 2px solid #E3E3E3;
+  display: flex;
+  justify-content: space-between;
+  flex-grow: 1;
+}
+
+.comic_info_other_links_container .comic_info_other_links .other_link p {
+  font-weight: bold;
+  font-size: 14px;
+  color: #A2A9C4;
+}
+
+.comic_info_other_links_container .comic_info_other_links .other_link .other_link_img {
+  max-height: 50px;
+}
+
+.comic_info_other_links_container .comic_info_other_links .other_link .other_link_img img {
+  height: 100%;
+  background-color: #A2A9C4;
+  border-radius: 8px;
 }
 
